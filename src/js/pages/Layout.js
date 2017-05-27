@@ -1,17 +1,14 @@
 import React from 'react'
 
-import Header from './Header'
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 export default class Layout extends React.Component {
     render() {
-        var list = [
-            <Header />,
-            <Header />,
-            <Header />
-        ]
         return (
             <div>
-                {list}
+                <Header />
+                <Footer />
             </div>
         )
     }
